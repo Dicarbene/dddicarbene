@@ -1,0 +1,35 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Dicarbene</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on Dicarbene</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>©2021 Dicarbene</copyright>
+    
+        <atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>https://example.com/post/first/</link>
+      <pubDate>Mon, 05 Apr 2021 00:25:50 +0800</pubDate>
+      
+      <guid>https://example.com/post/first/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;hello world!&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;first&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;second&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;third&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
