@@ -1,0 +1,151 @@
+# Project information
+site_name: Dicarbene's solutions
+site_url: https://github.com/Dicarbene/Solutions
+site_author: Xujie Wan
+site_description: >-
+  Just for entertaning
+# Repository
+repo_name: Dicarbene/blog
+repo_url: https://github.com/Dicarbene/Solutions
+edit_uri: ""
+
+# Configuration
+theme:
+  name: material
+
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - header.autohide
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+
+# Copyright
+copyright: Copyright &copy; 2021 Xujie Wan
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dicarbene
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/Dicarbene
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: 
+    - 介绍: index.md
+    - 杂项: index_mm.md
+  - Resources :
+    - OJ introductions: resources_oj.md
+    - Learning resources: resources_learn.md
+  - Codeforces: 
+    - Rating 1600: cf/1000.md
+    - Rating 1700: cf/1000.md
+    - Rating 1800: cf/1000.md
+    - Rating 1900: cf/1000.md
+  - ICPC/CCPC: 
+    - ICPC KunMing: 
+      - A.ac: icpc/kunming_2021_spring/a.md
+  - Virtual Judge: 
+    - Kuangbin 的题集 : 
+      - Set 1 Simple Search : 
+        - POJ 1321 棋盘问题: vj/kb/t1/POJ 1321 棋盘问题.md
+        - POJ 2251 Dungeon Master: vj/kb/t1/POJ 2251 Dungeon Master.md
+        - POJ 3278 Catch That Cow: vj/kb/t1/POJ 3278 Catch That Cow.md
+        - POJ 3279 Fliptile : vj/kb/t1/POJ 3279 Fliptile.md
+        - POJ 1426 Find The Multiple : vj/kb/t1/POJ 1426 Find The Multiple.md
+        - POJ 3126 Prime Path : vj/kb/t1/POJ 3126 Prime Path.md
+        - POJ 3087 Shuffle'm Up : vj/kb/t1/POJ 3087 Shuffle'm Up.md
+        - POJ 3414 Pots : vj/kb/t1/POJ 3414 Pots.md
+        - FZU 2150 Fire Game : vj/kb/t1/FZU 2150 Fire Game.md
+        - UVA 11624 Fire! : vj/kb/t1/UVA 11624 Fire!.md
+        - POJ 3984 迷宫问题 : vj/kb/t1/POJ 3984 迷宫问题.md
+        - HDU 1241 Oil Deposits : vj/kb/t1/HDU 1241 Oil Deposits.md
+        - HDU 1495 非常可乐 : vj/kb/t1/HDU 1495 非常可乐.md
+        - HDU 2612 Find a way : vj/kb/t1/HDU 2612 Find a way.md
+  - Leetcode:
+    - Data structure : vj/t1.md
+  - Miscellaneous:
+    - csp-ccf :  
+      - 201312-5 : mm/试题编号：201312-5.md
+      - 201403-4 : mm/试题编号： 201403-4.md
+    - Nowcoder: mm/t1.md
+    - USACO: mm/t1.md
+  - about:
+    - intro: about.md
