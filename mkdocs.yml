@@ -114,14 +114,15 @@ nav:
   - Resources :
     - OJ introductions: resources_oj.md
     - Learning resources: resources_learn.md
+  - ICPC/CCPC: 
+    - ICPC KunMing: 
+      - A.ac: icpc/kunming_2021_spring/a.md
+      - B.Chessboard: icpc/kunming_2021_spring/b.md
   - Codeforces: 
     - Rating 1600: cf/1000.md
     - Rating 1700: cf/1000.md
     - Rating 1800: cf/1000.md
     - Rating 1900: cf/1000.md
-  - ICPC/CCPC: 
-    - ICPC KunMing: 
-      - A.ac: icpc/kunming_2021_spring/a.md
   - Virtual Judge: 
     - Kuangbin 的题集 : 
       - Set 1 Simple Search : 
