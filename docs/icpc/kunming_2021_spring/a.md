@@ -4,7 +4,7 @@
 
 # A. AC
 
-!!! info "Constraint"
+!!! warning "Constraint"
 
     Input file: standard input
     
@@ -16,7 +16,7 @@
 
 
 
-!!! description ""
+!!! question "Description"
 
 
     Crystal's fortune predict system is successfully developed!
@@ -29,10 +29,9 @@
     
     As Ben is busy hacking into the system, could you tell him how to get the most $ac$ substrings after his modification?
 
+# Input:
 
-## Input:
-
-!!! note ""
+!!! example ""
 
     The first line contains two integers $N$ and $K$ $(1≤N≤5×10^5,0≤K≤N)$ 
     
@@ -40,13 +39,13 @@
     
     It is guaranteed that the string consists of lowercase English letters.
 
+# Output:
 
-## Output:
-!!! note ""
+!!! example ""
 
     Output two lines. The first line contains a single integer, denotes the maximum number of $ac$ substring Bob can get, after his modification. The second line contains the final modified predict string. If there are multiple ways that results in the maximum number of $ac$ substring, print any.
 
-## standard input
+# standard input
 
 
 ```
@@ -54,7 +53,7 @@
 arakbacca
 ```
 
-## standard output
+# standard output
 
 ```
 3

@@ -2,9 +2,9 @@
 
 
 
-# A. AC
+# G. Gift
 
-!!! info "Constraint"
+!!! warning "Constraint"
 
     Input file: standard input
     
@@ -16,47 +16,51 @@
 
 
 
-!!! description ""
+!!! question "Description"
 
 
-    Crystal's fortune predict system is successfully developed!
+    EQWE is a pastry chef who has $N$ friends. This year (obviously, the year 2021 ), he wants to give each friend a birthday cake made by himself.
     
-    The predict system is a distributed system consists of $N$ computers. When it receives a predict request, each computer will generate one lowercase letter as its output. The final fortune predict result is determined by the concentration of all $N$ outputs.
+    If EQWE wants to give the $i$ -th friend a birthday cake made by himself, he need $c_{i}$ days (do NOT need to be contiguous) before his friend's birthday to make it. After that he will get $v_{i}$ favorable impression. Note that it will be OK for him to finish the cake exactly on the birthday, as birthday parties are always held at night.
     
-    Tired of getting bad predictions like awful: millions of bugs $awful:\ millions\ of\ bugs$, Ben decides to hack into the predict system and modify the predict result. He has already got the access permission of every computer in the predict system, so he can modify their output to any letter arbitrarily. 
+    But EQWE doesn't have much time and he has another plan. There are $M$ special gifts in the shop. EQWE can pay $a_{j}$ yuan to get the $j$ -th special gift and send it to any friend. Note that each gift is unique, which means that he can buy each gift at most once. After that he will get $b_{j}$ favorable impression. EQWE's friends are very polite, so they do NOT want to receive more than one gift (including birthday cakes and special gifts). Note that to gain some favorable impression from a friend, the selected gift must be sent on the exact date of the friend's birthday.
     
-    As Ben is going to take part in ICPC Asia Regional Kunming Site 2077, he wants predictions like suitable for writing $suitable\ for\ writing\ codes$or will $get\ accepted\ for\ every\ problem$ . He has found that the more times the substring $ac$  occurs in the concentration of all $N$ outputs, the luckier he will get in the contest. But as the contest is coming soon, he only has time to modify at most $K$ outputs of the computers in the predict system.
+    Suppose that it is the first day of the year 2021 now (and he can start making birthday cakes immediately), and EQWE has $W$ yuan. What's the maximum number of favorable impression that EQWE can get in $2021 ?$
+
+# Input:
+
+!!! example ""
+
+    The input file starts with an integer $T(1 \leq T \leq 100)$, denoting the number of test cases. Then $T$ test cases follow.
     
-    As Ben is busy hacking into the system, could you tell him how to get the most $ac$ substrings after his modification?
+    For each test case, the first line contains three integers $N(1 \leq N \leq 500), M(1 \leq M \leq 15), W\left(1 \leq W \leq 10^{4}\right)$, denoting the number of friends, the number of special gifts, and the amount of money that EQWE has. Each of the following $N$ lines describes a friend, in the format of year $-$ month $-$ day $c_{i} v_{i}$, where year $-$ month $-$ day is the date of the friend's birthday, $c_{i}\left(1 \leq c_{i} \leq 30\right)$ is the day needed to make the birthday cake for the friend, and $v_{i}\left(1 \leq v_{i} \leq 10^{6}\right)$ is the favorable impression that EQWE can get. It is guaranteed that $c_{i}, v_{i}$ are integers. It is also guaranteed that the date given are all valid dates between the year 1990 and 2010 , that is, year is an integer between 1990 and $2010,$ month is an integer between 1 and 12 , and day is a positive integer which do not exceed the number of days in the given month. The next $M$ lines describe the special gifts, the $i$ -th of which contain two inte The $i^{\text {th }}$ line is $a_{i} b_{i}\left(1 \leq a_{i} \leq W, 1 \leq b_{i} \leq 10^{6}\right)$
 
+# Output:
 
-## Input:
+!!! example ""
 
-!!! note ""
+    For each test case, output a line containing a single integer, denoting the maximum number of favorable impression that $EQWE$ can get.
 
-    The first line contains two integers $N$ and $K$ $(1≤N≤5×10^5,0≤K≤N)$ 
-    
-    The second line contains a string of length $N$, denoting the origin prediction. 
-    
-    It is guaranteed that the string consists of lowercase English letters.
-
-
-## Output:
-!!! note ""
-
-    Output two lines. The first line contains a single integer, denotes the maximum number of $ac$ substring Bob can get, after his modification. The second line contains the final modified predict string. If there are multiple ways that results in the maximum number of $ac$ substring, print any.
-
-## standard input
+# standard input
 
 
 ```
-9 2
-arakbacca
+1
+2 2 100
+2000-01-01 10 13
+2000-12-31 30 92
+99 46
+2 2
 ```
 
-## standard output
+# standard output
 
 ```
-3
-acacbacca
+138
 ```
+
+# Note
+
+???+ Note
+
+    It is commonly known that a year is divide into 12 months, and for the most of the time the numbers of days in each month are 31,28,31,30,31,30,31,31,30,31,30 and 31. The only exception is that for leap years the second month contains 29 days. Of the time range mentioned in the problem (that is, from 1990 to 2021), the leap years are 1992, 1996, 2000, 2004, 2008, 2012, 2016 and 2020.

@@ -4,7 +4,7 @@
 
 # C. Cities
 
-!!! info "Constraint"
+!!! warning "Constraint"
 
     Input file: standard input
     
@@ -16,7 +16,7 @@
 
 
 
-!!! description ""
+!!! question "Description"
 
 
     Bob lives in a chaotic country with $n$ cities in a row, numbered from 1 to $n$. These cities are owned by different lords, and the $i$ -th cities currently belongs to the $a_{i}$ -th lord. To simply problems, we assume there are $n$ lords in the country, and they are also numbered from 1 to $n$. Some lords may take control of multiple cities, while some new-born lords have not got any cities yet.
@@ -35,7 +35,7 @@
 
 ## Input:
 
-!!! note ""
+!!! example ""
 
     The first line contains two integers $N$ and $K$ $(1≤N≤5×10^5,0≤K≤N)$ 
     
@@ -45,7 +45,7 @@
 
 
 ## Output:
-!!! note ""
+!!! example ""
 
     The first line contains a single integer $t(1 \leq t \leq 160)-$ the number of test cases. The first line of each test case contains an integers $n(1 \leq n \leq 5000)-$ the number of cities in the country. The second line of each test case contains $n$ integers $a_{i}\left(1 \leq a_{i} \leq n\right)-$ the $i$ -th city was originally owned by the $a_{i}$ -th lord. It is guaranteed that currently no Lord will have more than 15 cities, which means no one $a_{i}$ will appear more than 15 times in this line.
     It is guaranteed that the sum of $n$ over all test cases doesn't exceed 6000 .

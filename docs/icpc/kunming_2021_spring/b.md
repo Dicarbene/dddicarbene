@@ -4,7 +4,7 @@
 
 # B. Chessboard
 
-!!! info "Constraint"
+!!! warning "Constraint"
 
     Input file: standard input
     
@@ -16,7 +16,7 @@
 
 
 
-!!! description ""
+!!! question "Description"
 
     Your are playing a computer game. The game is played on a chessboard of $n$ rows and $m$ columns.
     For each grid on the board, you can choose to put a black piece or a white piece on it, or leave it blank. Denote $(i, j)$ as the grid in the $i$ -th row and the $j$ -column. For each $i \in[1, n], j \in[1, m],$ putting a black piece on $(i, j)$ earns you $s b_{i, j}$ points, while a white piece earns you $s w_{i, j}$ points, and leaving blank do not affect your score. The overall score will be the sum of the points earned by each piece. Note that a grid can contain at most one piece at the same time, that is, you cannot put a white piece and a black one simultaneously. It is guaranteed that $s b_{i, j}, s w_{i, j}$ are all non-negative integers. After you finish placing the pieces, the computer program checks whether the pieces are put in a $beautiful$ way or not. Let's define $b_{i}$ as the number of black pieces in the $i$ -th row, $B_{i}$ as the number of black pieces in the $i$ -th column, $w_{i}$ as the number of white pieces in the $i$ -th row, and $W_{i}$ as the number of white pieces in the $i$ -th column. The pieces are considered $beautiful$ if
@@ -26,7 +26,7 @@
     Tired of high scores, you decide to minimize your score. To simplify the problem, you only need to output the minimum possible score among all beautiful placements of pieces.
 
 ## Input
-!!! description ""
+!!! example ""
 
     The first line of input contains two integers $n, m(2 \leq n, m \leq 50)$, denoting the number of rows and columns of the board.
     
@@ -34,7 +34,7 @@
     It is guaranteed that there exists at least one strategy that satisfies all the constraints.
 
 ## Output
-!!! description ""
+!!! example ""
     Output a single integer, denoting the minimum score you can get.
 
 ## standard input
