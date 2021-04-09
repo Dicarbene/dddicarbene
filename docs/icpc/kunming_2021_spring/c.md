@@ -31,7 +31,7 @@
     
     The following picture shows an example where $n=6$. Different shapes are used to represent cities belonging to different lords. As shown in the picture, the minimum number of magic operations used is 2.
 
-![image-20210409134223725](E:\图床\image-20210409134223725.png)
+![image-20210409134223725.png](https://gitee.com/Dicarbene/pic/raw/master/img/image-20210409134223725.png)
 
 ## Input:
 
