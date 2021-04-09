@@ -116,8 +116,14 @@ nav:
     - Learning resources: resources_learn.md
   - ICPC/CCPC: 
     - ICPC KunMing: 
-      - A.ac: icpc/kunming_2021_spring/a.md
-      - B.Chessboard: icpc/kunming_2021_spring/b.md
+      - Problem A. AC: icpc/kunming_2021_spring/a.md
+      - Problem B. Chessboard: icpc/kunming_2021_spring/b.md
+      - Problem C. Cities: icpc/kunming_2021_spring/c.md
+      - Problem D. Competition Against a Robot: icpc/kunming_2021_spring/d.md
+      - Problem E. Counting Binary Trees: icpc/kunming_2021_spring/e.md
+      - Problem F. Generating Strings: icpc/kunming_2021_spring/f.md
+      - Problem G. Gift: icpc/kunming_2021_spring/g.md
+      - Problem H. Hard Calculation: icpc/kunming_2021_spring/h.md
   - Codeforces: 
     - Rating 1600: cf/1000.md
     - Rating 1700: cf/1000.md
