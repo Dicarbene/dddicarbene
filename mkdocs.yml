@@ -43,7 +43,7 @@ theme:
         name: Switch to dark mode
   font:
     text: Roboto
-    code: Roboto Mono
+    code: JetBrains Mono
   favicon: assets/favicon.png
   icon:
     logo: logo
