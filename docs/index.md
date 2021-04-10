@@ -16,13 +16,13 @@
 !!! NOTE ""
 
     - 刷题以及比赛后补题
-        - [ICPC 昆明 kunming](icpc\kunming_2021_spring\a.md)
+        - [ICPC 昆明 kunming](icpc\kunming_2021_spring\a)
 
 ## [Virtual Judge section](vj/kb/t1)
 !!! NOTE ""
 
     - Kuangbin的题
-        - [专题一 简单搜索](vj\kb\t1\POJ 1321 棋盘问题.md)
+        - [专题一 简单搜索](vj\kb\t1\POJ 1321 棋盘问题)
 
 ## Leetcode section
 !!! NOTE ""
