@@ -26,6 +26,11 @@ Download:https://github.com/kth-competitive-programming/kactl/blob/master/kactl.
 
 Url：https://oi-wiki.org/
 
+印刷质量的 pdf 版本：
+
+- Repo: https://github.com/OI-wiki/OI-Wiki-export
+- Releses: https://github.com/OI-wiki/OI-Wiki-export/releases
+
 ## E-Maxx Algorithms
 
 Source：http://e-maxx.ru/algo which provides descriptions of many algorithms and data structures especially popular in field of competitive programming.
