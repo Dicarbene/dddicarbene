@@ -42,7 +42,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
   font:
-    text: Roboto
+    text: JetBrains Mono
     code: JetBrains Mono
   favicon: assets/favicon.png
   icon:
