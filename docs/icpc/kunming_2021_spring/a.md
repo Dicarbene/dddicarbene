@@ -25,7 +25,7 @@
     
     Tired of getting bad predictions like awful: millions of bugs $awful:\ millions\ of\ bugs$, Ben decides to hack into the predict system and modify the predict result. He has already got the access permission of every computer in the predict system, so he can modify their output to any letter arbitrarily. 
     
-    As Ben is going to take part in ICPC Asia Regional Kunming Site 2077, he wants predictions like suitable for writing $suitable\ for\ writing\ codes$or will $get\ accepted\ for\ every\ problem$ . He has found that the more times the substring $ac$  occurs in the concentration of all $N$ outputs, the luckier he will get in the contest. But as the contest is coming soon, he only has time to modify at most $K$ outputs of the computers in the predict system.
+    As Ben is going to take part in ICPC Asia Regional Kunming Site 2077, he wants predictions like suitable for writing $suitable\ for\ writing\ codes$ or will $get\ accepted\ for\ every\ problem$ . He has found that the more times the substring $ac$  occurs in the concentration of all $N$ outputs, the luckier he will get in the contest. But as the contest is coming soon, he only has time to modify at most $K$ outputs of the computers in the predict system.
     
     As Ben is busy hacking into the system, could you tell him how to get the most $ac$ substrings after his modification?
 
