@@ -1,53 +1,76 @@
-# A. Array and Peaks
+# D. GCD and MST
 
 !!! question "Description"
 
 
-    A sequence of n integers is called a permutation if it contains all integers from 1 to n exactly once.
+    You are given an array a of $n$ $(n \geq 2)$ positive integers and an integer p. Consider an undirected weighted graph of n vertices numbered from 1 to n for which the edges between the vertices $i$ and $j$ $(i<j)$ are added in the following manner:
     
-    Given two integers n and k, construct a permutation a of numbers from 1 to n which has exactly k peaks. An index i of an array a of size n is said to be a peak if $1 < i < n$ and $a_i \gt a_{i-1}$ and $a_i \gt a_{i+1}$. If such permutation is not possible, then print -1.
+    - If $gcd(a_i, a_{i+1}, a_{i+2}, \dots, a_{j}) = min(a_i, a_{i+1}, a_{i+2}, \dots, a_j)$, then there is an edge of weight $min(a_i, a_{i+1}, a_{i+2}, \dots, a_j)$ between i and j.
+    - If i+1=j, then there is an edge of weight p between i and j.
+    Here $gcd(x, y, \ldots)$ denotes the greatest common divisor (GCD) of integers x, y, ....
+    
+    Note that there could be multiple edges between i and j if both of the above conditions are true, and if both the conditions fail for i and j, then there is no edge between these vertices.
+    
+    The goal is to find the weight of the minimum spanning tree of this graph.
 
 # Input:
 
 !!! example ""
 
-    The first line contains an integer $t$ $(1 \leq t \leq 100)$ — the number of test cases.
+    The first line contains a single integer t (1 \leq t \leq 10^4) — the number of test cases.
     
-    Then t lines follow, each containing two space-separated integers $n$ $(1 \leq n \leq 100)$ and $k$ $(0 \leq k \leq n)$ — the length of an array and the required number of peaks.
+    The first line of each test case contains two integers n (2 \leq n \leq 2 \cdot 10^5) and p (1 \leq p \leq 10^9) — the number of nodes and the parameter p.
+    
+    The second line contains n integers a_1, a_2, a_3, \dots, a_n (1 \leq a_i \leq 10^9).
+    
+    It is guaranteed that the sum of n over all test cases does not exceed 2 \cdot 10^5.
 
 # Output:
 
 !!! example ""
 
-    Output t lines. For each test case, if there is no permutation with given length and number of peaks, then print -1. Otherwise print a line containing n space-separated integers which forms a permutation of numbers from 1 to n and contains exactly k peaks.
-    
-    If there are multiple answers, print any.
+    Output t lines. For each test case print the weight of the corresponding graph.
 
 # standard input
 
 
 ```
-5
-1 0
-5 2
-6 6
-2 1
-6 1
+4
+2 5
+10 10
+2 5
+3 3
+4 5
+5 2 4 9
+8 8
+5 3 3 6 10 100 9 15
 ```
 
 # standard output
 
 ```
-1 
-2 4 1 5 3 
--1
--1
-1 3 6 5 4 2
+5
+3
+12
+46
 ```
 
 # Note
 
-???+ Note
+Here are the graphs for the four test cases of the example (the edges of a possible MST of the graphs are marked pink):
 
-    In the second test case of the example, we have array a = [2,4,1,5,3]. Here, indices i=2 and i=4 are the peaks of the array. This is because $(a_{2} \gt a_{1}, a_{2} \gt a_{3})$ and $(a_{4} \gt a_{3}, a_{4} \gt a_{5})$.
+**For test case 1**
 
+![img](https://gitee.com/Dicarbene/pic/raw/master/fbd5f4536bec34a1dbc98dc3679bdd574a132274.png)
+
+**For test case 2**
+
+![img](https://gitee.com/Dicarbene/pic/raw/master/f11ee0a476af52f30318753c5e9b66a86aad12dc.png)
+
+**For test case 3**
+
+![img](https://gitee.com/Dicarbene/pic/raw/master/11ec1f337851b0eab129d6d349a04ca6223504f4.png)
+
+**For test case 4**
+
+![img](https://gitee.com/Dicarbene/pic/raw/master/9c3e0e1143b65394c8cb776e7bc45b4e12d1b780.png)

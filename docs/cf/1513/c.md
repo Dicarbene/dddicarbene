@@ -1,27 +1,27 @@
-# A. Array and Peaks
+# C. Add One
 
 !!! question "Description"
 
 
-    A sequence of n integers is called a permutation if it contains all integers from 1 to n exactly once.
+    You are given an integer $n$. You have to apply $m$ operations to it.
     
-    Given two integers n and k, construct a permutation a of numbers from 1 to n which has exactly k peaks. An index i of an array a of size n is said to be a peak if $1 < i < n$ and $a_i \gt a_{i-1}$ and $a_i \gt a_{i+1}$. If such permutation is not possible, then print -1.
+    In a single operation, you must replace every digit d of the number with the decimal representation of integer d + 1. For example, 1912 becomes 21023 after applying the operation once.
+    
+    You have to find the length of $n$ after applying m operations. Since the answer can be very large, print it modulo $10^9+7$.
 
 # Input:
 
 !!! example ""
 
-    The first line contains an integer $t$ $(1 \leq t \leq 100)$ — the number of test cases.
+    The first line contains a single integer $t$ $(1 \le t \le 2 \cdot 10^5)$ — the number of test cases.
     
-    Then t lines follow, each containing two space-separated integers $n$ $(1 \leq n \leq 100)$ and $k$ $(0 \leq k \leq n)$ — the length of an array and the required number of peaks.
+    The only line of each test case contains two integers $n$ $(1 \le n \le 10^9)$ and $m$ $(1 \le m \le 2 \cdot 10^5)$ — the initial number and the number of operations.
 
 # Output:
 
 !!! example ""
 
-    Output t lines. For each test case, if there is no permutation with given length and number of peaks, then print -1. Otherwise print a line containing n space-separated integers which forms a permutation of numbers from 1 to n and contains exactly k peaks.
-    
-    If there are multiple answers, print any.
+    For each test case output the length of the resulting number modulo $10^9+7$.
 
 # standard input
 
@@ -49,5 +49,11 @@
 
 ???+ Note
 
-    In the second test case of the example, we have array a = [2,4,1,5,3]. Here, indices i=2 and i=4 are the peaks of the array. This is because $(a_{2} \gt a_{1}, a_{2} \gt a_{3})$ and $(a_{4} \gt a_{3}, a_{4} \gt a_{5})$.
+    For the first test, 1912 becomes 21023 after 1 operation which is of length 5.
+    
+    For the second test, 5 becomes 21 after 6 operations which is of length 2.
+    
+    For the third test, 999 becomes 101010 after 1 operation which is of length 6.
+    
+    For the fourth test, 88 becomes 1010 after 2 operations which is of length 4.
 
