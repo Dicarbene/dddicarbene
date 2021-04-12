@@ -130,6 +130,12 @@ nav:
       - Problem L. Simone and Graph Coloring: icpc/kunming_2021_spring/l.md
       - Problem M. Stone Game: icpc/kunming_2021_spring/m.md
   - Codeforces: 
+    - Codeforces Round 1513 (Div. 2) : 
+       - A. Array and Peaks: cf/1513/a.md
+       - B. AND Sequences: cf/1513/b.md
+       - C. Add One: cf/1513/c.md
+       - D. GCD and MST: cf/1513/d.md
+       - F. Swapping Problem: cf/1513/f.md
     - Rating 1600: cf/1000.md
     - Rating 1700: cf/1000.md
     - Rating 1800: cf/1000.md
