@@ -17,13 +17,13 @@
 
 !!! example ""
 
-    The first line contains a single integer t (1 \leq t \leq 10^4) — the number of test cases.
+    The first line contains a single integer $t (1 \leq t \leq 10^4)$ — the number of test cases.
     
-    The first line of each test case contains two integers n (2 \leq n \leq 2 \cdot 10^5) and p (1 \leq p \leq 10^9) — the number of nodes and the parameter p.
+    The first line of each test case contains two integers $n$ $(2 \leq n \leq 2 \cdot 10^5)$ and $p$ $(1 \leq p \leq 10^9)$ — the number of nodes and the parameter $p$.
     
-    The second line contains n integers a_1, a_2, a_3, \dots, a_n (1 \leq a_i \leq 10^9).
+    The second line contains n integers $a_1, a_2, a_3, \dots, a_n$ $(1 \leq a_i \leq 10^9)$.
     
-    It is guaranteed that the sum of n over all test cases does not exceed 2 \cdot 10^5.
+    It is guaranteed that the sum of n over all test cases does not exceed $2 \cdot 10^5$.
 
 # Output:
 
