@@ -1,4 +1,4 @@
-# B. AND Sequences
+# [B. AND Sequences](https://codeforces.com/contest/1513/problem/B)
 
 !!! question "Description"
 

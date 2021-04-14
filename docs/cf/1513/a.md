@@ -1,4 +1,4 @@
-# A. Array and Peaks
+# [A. Array and Peaks](https://codeforces.com/contest/1513/problem/A)
 
 !!! question "Description"
 

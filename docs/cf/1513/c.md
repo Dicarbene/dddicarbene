@@ -1,4 +1,4 @@
-# C. Add One
+# [C. Add One](https://codeforces.com/contest/1513/problem/C)
 
 !!! question "Description"
 

@@ -1,4 +1,4 @@
-# D. GCD and MST
+# [D. GCD and MST](https://codeforces.com/contest/1513/problem/C)
 
 !!! question "Description"
 
